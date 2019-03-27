@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FCFFFF;
+    overflow: hidden;
+}
+
+p {
+    font-family: 'Tangerine', cursive;
+    font-size: 90px;
+    color: #9C839C;
+    position: fixed;
+    margin: 0 auto;
+    top: 5%;
+    left: 40%;
+    margin-right: -50%;
+}
+
+/* Navigation */
+
+.nav {
+    display: inline-block;
+}
+
+.nav ul .drop i {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #FCFFFF;
+    color: #9C839C;
+    transition: 0.3s;
+}
+
+.nav ul .drop i:hover {
+    color: #E8C4E8;
+}
+
+nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li a {
+	display: inline-block;
+	color: #9C839C;
+	text-decoration: none;
+    padding: 15px;
+    margin-left: 20px;
+	transition: all 0.5s ease-in-out;
+}
+
+.dropdown {
+	display: none;
+	position: absolute;
+}
+
+.social-links {
+    margin-top: 130px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    position:fixed;
+}
+
+.social-links a {
+    color: #9C839C;
+    margin-left: 22px;
+    padding: 20px 0;
+    transition: 0.5s;
+}
+
+.social-links a:hover {
+    color: #E8C4E8;
+}
+
+.img-item img {
+    height: 40%;
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    z-index: -1;
+}
+h1, h3 {
+    color: #453A45;
+}
+
+h1, h3, hr {
+    display: flex;
+    flex-direction: column;
+    position: relative; left: 300px; top: 250px;
+    z-index: 0;
+}
+
+hr {
+    margin-left: 80px;
+    background-color: #453A45;
+    height: 1px;
+    width: 120px;
+    border: 0;
+}
+
+h3 {
+    margin-left: 50px;
+}
